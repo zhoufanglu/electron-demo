@@ -1,0 +1,46 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\86185\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add electron-squirrel-startup
+
+PATH: 
+  E:\project\study\electron-demo\demo_2\node_modules\.bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\86185\bin;C:\Program Files\Java\jdk-15.0.1\bin;C:\Program Files\Java\jdk-15.0.1\jre\bin;C:\Program Files\nodejs; C;C:\Program Files\Git\Windows\system32;C:\Users\86185\AppData\Local\Programs\Python\Python38\Scripts;C:\Users\86185\AppData\Local\Programs\Python\Python38;C:\Users\86185\.windows-build-tools\python27;C:\Users\86185\AppData\Local\Microsoft\WindowsApps;C:\Users\86185\AppData\Local\Yarn\bin;C:\Program Files\nodejs\node_global;E:\webstorm\WebStorm 2020.2.3\bin;C:\Users\86185\AppData\Roaming\npm;C:\Windows\system32;E:\vscode\Microsoft VS Code\bin
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  14.15.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: ENOENT: no such file or directory, copyfile 'C:\Users\86185\AppData\Local\Yarn\Cache\v6\npm-path-key-3.1.1-581f6ade658cbba65a0d3380de7753295054f375-integrity\node_modules\path-key\index.js' -> 'E:\project\study\electron-demo\demo_2\node_modules\@malept\cross-spawn-promise\node_modules\path-key\index.js'
+
+npm manifest: 
+  {
+    "name": "demo_1",
+    "version": "1.0.0",
+    "description": "demo_1",
+    "main": "main.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "electron-forge start",
+      "package": "electron-forge package",
+      "make": "electron-forge make"
+    },
+    "keywords": [],
+    "author": "tog",
+    "license": "ISC",
+    "devDependencies": {
+      "@electron-forge/cli": "^6.0.0-beta.54",
+      "electron": "^12.0.2",
+      "electron-squirrel-startup": "^1.0.0"
+    },
+    "dependencies": {}
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

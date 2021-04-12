@@ -1,0 +1,21 @@
+{
+  "name": "demo_1",
+  "version": "1.0.0",
+  "description": "demo_1",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron-forge start",
+    "package": "electron-forge package",
+    "make": "electron-forge make"
+  },
+  "keywords": [],
+  "author": "tog",
+  "license": "ISC",
+  "devDependencies": {
+    "@electron-forge/cli": "^6.0.0-beta.54",
+    "electron": "^12.0.2",
+    "electron-squirrel-startup": "^1.0.0"
+  },
+  "dependencies": {}
+}
