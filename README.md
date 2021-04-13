@@ -9,3 +9,6 @@
 ## demo3
 > electron-vue创建
 
+## demo4
+> vue项目中添加electron
+
