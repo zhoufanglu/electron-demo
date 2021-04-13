@@ -1,6 +1,12 @@
 const { app, BrowserWindow } = require('electron')
 const path = require('path')
 
+// 热加载
+try {
+  require('electron-reloader')(module, {});
+} catch (_) { }
+
+
 function createWindow () {
   //browserWindow主进程来创建网页
   //你定义一个方法用来创建一个带有预加载脚本的新的浏览器窗口，并加载index.html文件进入该窗口

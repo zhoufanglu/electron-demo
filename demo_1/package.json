@@ -11,6 +11,7 @@
   "author": "tog",
   "license": "ISC",
   "devDependencies": {
-    "electron": "^12.0.2"
+    "electron": "^12.0.2",
+    "electron-reloader": "^1.2.0"
   }
 }
